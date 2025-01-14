@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2bfcd70-c485-4f66-96a8-d2c9f181cb17" name="Changes" comment="&#10;Добавление фреймворка Allure">
+    <list default="true" id="f2bfcd70-c485-4f66-96a8-d2c9f181cb17" name="Changes" comment="&#10;Скролл страницы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/AdvertisementCabinetHelp.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/AdvertisementCabinetHelp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/HelpPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/HelpPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/RecoveryPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/RecoveryPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/RegistrationPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/RegistrationPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/HelpTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HelpTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/LoginTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/LoginTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RecoveryTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RecoveryTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RegistrationTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RegistrationTests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testlocal" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -47,20 +61,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for GoToEcoSystemTest.test_open_vk_ecosystem.executor": "Run",
+    "Python tests.Python tests for HelpTests.test_help_test.executor": "Run",
     "Python tests.Python tests for LoginTests.test_empty_login_and_password.executor": "Run",
     "Python tests.Python tests for LoginTests.test_empty_password.executor": "Run",
     "Python tests.Python tests for RecoveryTests.test_go_to_recovery_after_many_fails.executor": "Run",
+    "Python tests.Python tests for RegistrationTests.test_registration_random_country.executor": "Run",
     "Python tests.Python tests in LoginTests.py.executor": "Run",
     "Python.LoginPage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "testlocal",
+    "git-widget-placeholder": "testlocal3",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/dark-/PycharmProjects/testweb"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for RecoveryTests.test_go_to_recovery_after_many_fails">
-    <configuration name="Python tests for LoginTests.test_empty_login_and_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for GoToEcoSystemTest.test_open_vk_ecosystem">
+    <configuration name="Python tests for GoToEcoSystemTest.test_open_vk_ecosystem" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="testweb" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +89,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--alluredir\u003dallure-results&quot;" />
-      <option name="_new_target" value="&quot;LoginTests.test_empty_login_and_password&quot;" />
+      <option name="_new_target" value="&quot;GoToEcoSystemTest.test_open_vk_ecosystem&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for HelpTests.test_help_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="testweb" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (testweb)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--alluredir\u003dallure-results&quot;" />
+      <option name="_new_target" value="&quot;HelpTests.test_help_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -83,7 +116,7 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (testweb)" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\dark-\PycharmProjects\testweb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -99,7 +132,7 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (testweb)" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\dark-\PycharmProjects\testweb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -108,20 +141,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in LoginTests.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for RegistrationTests.test_registration_random_country" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="testweb" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (testweb)" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\dark-\PycharmProjects\testweb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--alluredir\u003dallure-results&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/LoginTests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;RegistrationTests.test_registration_random_country&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests" type="tests" factoryName="Autodetect" nameIsGenerated="true">
@@ -131,7 +164,7 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.13 (testweb)" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\dark-\PycharmProjects\testweb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -158,17 +191,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Python tests" />
+      <item itemvalue="Python tests.Python tests for GoToEcoSystemTest.test_open_vk_ecosystem" />
+      <item itemvalue="Python tests.Python tests for HelpTests.test_help_test" />
+      <item itemvalue="Python tests.Python tests for RegistrationTests.test_registration_random_country" />
       <item itemvalue="Python tests.Python tests for RecoveryTests.test_go_to_recovery_after_many_fails" />
-      <item itemvalue="Python tests.Python tests for LoginTests.test_empty_login_and_password" />
       <item itemvalue="Python tests.Python tests for LoginTests.test_empty_password" />
-      <item itemvalue="Python tests.Python tests in LoginTests.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for GoToEcoSystemTest.test_open_vk_ecosystem" />
+        <item itemvalue="Python tests.Python tests for HelpTests.test_help_test" />
+        <item itemvalue="Python tests.Python tests for RegistrationTests.test_registration_random_country" />
         <item itemvalue="Python tests.Python tests for RecoveryTests.test_go_to_recovery_after_many_fails" />
         <item itemvalue="Python tests.Python tests for LoginTests.test_empty_password" />
-        <item itemvalue="Python tests.Python tests for LoginTests.test_empty_login_and_password" />
-        <item itemvalue="Python tests.Python tests in LoginTests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -220,12 +255,39 @@
       <option name="project" value="LOCAL" />
       <updated>1736614474140</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;Использование цикла For в автотесте">
+      <option name="closed" value="true" />
+      <created>1736620845490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736620845491</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;Работа с выпадающим списком">
+      <option name="closed" value="true" />
+      <created>1736710230346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736710230346</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&#10;Скролл страницы">
+      <option name="closed" value="true" />
+      <created>1736748674781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736748674781</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10; автотест с использованием паттерна PageObject" />
     <MESSAGE value="&#10;Добавление фреймворка Allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Добавление фреймворка Allure" />
+    <MESSAGE value="&#10;Использование цикла For в автотесте" />
+    <MESSAGE value="&#10;Работа с выпадающим списком" />
+    <MESSAGE value="&#10;Скролл страницы" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Скролл страницы" />
   </component>
 </project>
